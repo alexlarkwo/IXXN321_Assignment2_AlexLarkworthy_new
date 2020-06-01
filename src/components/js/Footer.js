@@ -1,15 +1,16 @@
 import React from "react";
 import "../css/Footer.css";
+import  { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <a href="/#/EmailForm">
+      <Link to = "EmailForm">
         <button className="getInTouch">
           {" "}
           <span> Get in Touch! </span>{" "}
         </button>
-      </a>
+      </Link>
 
       <img
         src={require("../../images/linebreak.png")}

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import  { Link } from "react-router-dom";
+
 import "../css/EmailForm.css";
 
 export default class EmailForm extends Component {
@@ -64,9 +66,9 @@ export default class EmailForm extends Component {
               placeholder="message"
             />
           </div>
-          <div>
+          <Link>
             <button type="submit">submit</button>
-          </div>
+          </Link>
         </form>
       </div>
     );

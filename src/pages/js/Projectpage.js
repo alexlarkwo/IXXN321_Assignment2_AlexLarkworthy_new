@@ -15,7 +15,7 @@ export default class extends React.Component {
 
         <img
           src={waxclose}
-          className="materials gallery-image"
+          className="matrials gallery-image"
           alt="wax and fabric"
         />
       </Carousel>
