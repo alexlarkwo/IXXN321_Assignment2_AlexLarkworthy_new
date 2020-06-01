@@ -1,0 +1,97 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    margin: 0px;
+}
+
+.footer{
+    background-color: #9BE1FF;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: fit-content (100px);
+}
+
+.footer-text{
+  margin-top: 70px;
+  margin-left: 45px;
+  display: grid;
+  position: absolute;
+}
+
+.line-image{
+    margin:5px;
+    padding:5px;
+    left:0;
+    float: left;
+    /* position: absolute; */
+    grid-row: 2;
+}
+
+.getInTouch{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    margin-top: 15px;
+    margin-left: 70px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    -ms-flex: 25%;
+    flex: 25%;
+    float: left;
+    position: relative;
+    display: grid;
+    grid-column: 5;
+    align-items: center;
+  }
+  
+  .getInTouch span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .getInTouch span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .getInTouch:hover span{
+    padding-right: 25px;
+  }
+  
+  .getInTouch:hover span:after{
+    opacity: 1;
+    right: 0;
+  }
+
+.linkedin,.github{
+    display: flex;
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 1px;
+    float: right;
+  }
+ .instalogo {
+    display: flex;
+    width:30px;
+    height: 30px;
+    display:inline-block;
+    padding: 5px;
+    margin-left: 330px;
+    float: right;
+  }
