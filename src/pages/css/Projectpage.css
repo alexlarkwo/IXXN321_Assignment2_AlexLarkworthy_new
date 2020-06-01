@@ -1,4 +1,7 @@
-.project-image{
-    width:500px;
-    height: 500px;
+.project-images{
+  height: 800px;
+    width: 1390px;
+    margin-top:150px;
+    margin-bottom: 10px;
+    text-align: center;
 }
